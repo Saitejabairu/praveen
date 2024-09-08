@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+h6{
+    font-weight: bold;
+    color:#55bfe9;
+   
+}
+
+.main{
+
+    background-image:linear-gradient(#f5fdff,#d0eef9);
+    
+    height: 100%;
+    width: 100vw;
+    background-position: 50% 50%;
+}
+    
+
+.top{
+  
+    font-weight: bold;
+    background: linear-gradient(to right,#476977,#4f9fbb);
+    background: linear-gradient(to bottom,#476977,#4f9fbb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+
+
+}
+.main p{
+    color: #6a6e71;
+    font-weight: 100;
+}
+.highlight{
+    font-weight: bold;
+}
+button{
+    background: #fff5c2;
+    border: 2px solid #e2cc70;
+    color:#e2cc70;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
