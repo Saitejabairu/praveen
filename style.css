@@ -11,6 +11,7 @@ h6{
 }
 
 .main{
+    display:flex;
 
     background-image:linear-gradient(#f5fdff,#d0eef9);
     
