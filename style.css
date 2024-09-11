@@ -2,6 +2,7 @@
     margin:0;
     border:0;
     box-sizing: border-box;
+    
 }
 
 h6{
@@ -12,17 +13,15 @@ h6{
 
 .main{
 
-       
-        background-image:linear-gradient(#f5fdff,#d0eef9);
-        min-height: 100vh; /* Ensure it covers the full viewport height */
-        width: 100%;
+    display:grid;
+    background-image:linear-gradient(#f5fdff,#d0eef9);
     
-    
+    min-height: 100vh;
+    width: 100%;
 }
-    
-
+ 
 .top{
-  
+     
     font-weight: bold;
     background: linear-gradient(to right,#476977,#4f9fbb);
     background: linear-gradient(to bottom,#476977,#4f9fbb);
@@ -45,3 +44,14 @@ button{
     border-radius: 20px;
     margin-bottom: 20px;
 }
+.object-fit: (
+  responsive: true,
+  property: object-fit,
+  values: (
+    contain: contain,
+    cover: cover,
+    fill: fill,
+    scale: scale-down,
+    none: none,
+  )
+),
