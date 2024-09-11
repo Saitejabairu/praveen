@@ -1,5 +1,4 @@
 *{
-    display:grid;
     margin:0;
     border:0;
     box-sizing: border-box;
@@ -12,12 +11,13 @@ h6{
 }
 
 .main{
-    display:grid;
 
-    background-image:linear-gradient(#f5fdff,#d0eef9);
+       
+        background-image:linear-gradient(#f5fdff,#d0eef9);
+        min-height: 100vh; /* Ensure it covers the full viewport height */
+        width: 100%;
     
-    height: 100%;
-    width: 100%;
+    
 }
     
 
