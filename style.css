@@ -42,5 +42,13 @@ h3{
     
     background-image:linear-gradient(#f5fdff,#d0eef9);
 }
+.body{
+    
+    display:grid;
+    background-image:linear-gradient(#f5fdff,#d0eef9);
+    min-height:100vh;
+    width: 100%;
+}
+
 
 
