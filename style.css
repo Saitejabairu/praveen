@@ -1,21 +1,29 @@
+
 *{
     margin: 0;
     border: 0;
     box-sizing: border-box;
+   
 }
+.body{
+    display:grid;
+    background-image:linear-gradient(#f5fdff,#d0eef9);
+        min-height: 100vh;
+    width: 100%;
+}
+
 
 .grid{
 
 
     display:grid;
     background-image:linear-gradient(#f5fdff,#d0eef9);
-        min-height: 100vh;
+        min-height: 50vh;
     width: 100%;
 }
-.card{ 
-       display:grid;
-        background-image:linear-gradient(#f5fdff,#d0eef9);
-}
+
+      
+
 button{
     background: #fff5c2;
     border: 2px solid #e2cc70;
@@ -35,3 +43,10 @@ h3{
 
 
 }
+.card{
+    display:grid;
+    
+    background-image:linear-gradient(#f5fdff,#d0eef9);
+}
+
+
